@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assest/css.css">
+
+    </head>
+<body>
+
+    <div class="add-course">
+        <div class="container">
+            
+            <form action="">
+                
+                    <label for="">your full name</label>
+                    <input class="inputs form-control" type="text" placeholder="your full name" id="fullName">
+               
+                <label for="">your major</label>
+                <input class="inputs form-control" type="text" placeholder="your major" id="yourmajor">
+    
+                <label for="">your university</label>
+                <input class="inputs form-control" type="text" placeholder="your university" id="university">
+    
+                <label for="">your email</label>
+                <input class="inputs form-control" type="email" placeholder="your email" id="youremail"></input>
+    
+                <label for="">your university number</label>
+                <input class="inputs form-control" type="number" placeholder="your university number" id="youruninumber">
+                <div class="buttons">
+                <input type="submit" value="submit" class="btn" id="click" />
+                <button class="btn text-light bg-danger reset" type="reset">clear</button>
+            </div>
+            </form>
+        </div>
+        <div class="container">
+
+            <table class="table table table-striped">
+                <thead>
+                    <tr>
+                        <th class="text-light">number</th>
+                        <th class="text-light">name</th>
+                        <th class="text-light">major</th>
+                        <th class="text-light">university</th>
+                        <th class="text-light">email</th>
+                        <th class="text-light">university#</th>
+                        <th class="text-light">update</th>
+                        <th class="text-light">delete</th>
+                    </tr>
+                </thead>
+                <tbody id="data">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- bootstrap js file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+        <!-- sweet alert -->
+    <!-- custom js file -->
+    <script src="./assest/js.js"></script>
+</body>
+</html>
